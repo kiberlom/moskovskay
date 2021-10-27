@@ -1,0 +1,230 @@
+[
+    {
+        "Number": "1143827",
+        "NumberRoom": "56",
+        "TimeCreate": "31.08.2021 11:13",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "31.08.2021 16:47",
+        "TimeFinish": "15.09.2021 12:40",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Составить акт о несвоевременном вывозе мусора",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Прочее",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1143562",
+        "NumberRoom": "56",
+        "TimeCreate": "30.08.2021 10:50",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "30.08.2021 16:37",
+        "TimeFinish": "02.09.2021 10:42",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Запах КНС в подъездах дома",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Канализация",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1143106",
+        "NumberRoom": "-",
+        "TimeCreate": "27.08.2021 12:22",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "02.09.2021 10:41",
+        "TimeFinish": "15.09.2021 12:39",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "В маш. пом. 1,2 подъездов забить окна",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Лифты",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1142065",
+        "NumberRoom": "56",
+        "TimeCreate": "23.08.2021 14:00",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "24.08.2021 10:44",
+        "TimeFinish": "24.08.2021 10:44",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Запах КНС по стояку 4ком.кв",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Канализация",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1142063",
+        "NumberRoom": "21",
+        "TimeCreate": "23.08.2021 13:59",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "24.08.2021 10:43",
+        "TimeFinish": "15.09.2021 12:42",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Спилить кустарники за домом со сотоны 2подъ.",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Благоустройство",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1141281",
+        "NumberRoom": "21",
+        "TimeCreate": "19.08.2021 16:08",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "19.08.2021 16:12",
+        "TimeFinish": "20.08.2021 07:04",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Запах КНС в 1 подъезде",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Канализация",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1140874",
+        "NumberRoom": "69",
+        "TimeCreate": "18.08.2021 09:54",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "18.08.2021 09:54",
+        "TimeFinish": "18.08.2021 13:40",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Замена полотенцесушителя",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Сантехника",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1140692",
+        "NumberRoom": "64",
+        "TimeCreate": "17.08.2021 11:55",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "17.08.2021 11:55",
+        "TimeFinish": "15.09.2021 12:48",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Переустановка полотенцесушителя",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Сантехника",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1139739",
+        "NumberRoom": "69",
+        "TimeCreate": "12.08.2021 09:39",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "12.08.2021 09:39",
+        "TimeFinish": "17.08.2021 11:09",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Замена полотенцесушителя",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "ГВС",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1139277",
+        "NumberRoom": "69",
+        "TimeCreate": "10.08.2021 10:15",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "10.08.2021 10:15",
+        "TimeFinish": "11.08.2021 16:33",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Осмотр по замене радиатора",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Сантехника",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1139113",
+        "NumberRoom": "36",
+        "TimeCreate": "09.08.2021 13:12",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "09.08.2021 13:12",
+        "TimeFinish": "09.08.2021 13:52",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Установка крана Маевского",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Сантехника",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    },
+    {
+        "Number": "1137479",
+        "NumberRoom": "56",
+        "TimeCreate": "02.08.2021 11:37",
+        "Priority": "Средний",
+        "Status": "Заявка выполнена успешно",
+        "TimeTransfer": "02.08.2021 11:37",
+        "TimeFinish": "03.08.2021 07:05",
+        "DetailCase": {
+            "ApplicantAssessment": "нет данных",
+            "Cause": "Засор канализации",
+            "ApplicationType": "текущие работы",
+            "WorkGroup": "Канализация",
+            "ControlClaim": "Нет",
+            "MES": "Нет",
+            "ImplementingOrganization": "ООО \"Городская УК\"",
+            "Work": "нет данных"
+        }
+    }
+]
