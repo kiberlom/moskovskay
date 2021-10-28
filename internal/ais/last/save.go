@@ -6,13 +6,13 @@ import (
 	"os"
 	"path"
 
-	"github.com/kiberlom/moskovskay/internal/models"
+	"github.com/kiberlom/moskovskay/internal/ais/models"
 )
 
 func Last(claims []models.Apartment) error {
 
 	// последний элемент
-	lastClaim := claims[len(claims)-1]
+	// lastClaim := claims[len(claims)-1]
 
 	// file, err := os.OpenFile(path.Join(".", "data", "last_save.json"), os.O_RDWR|os.O_CREATE, 0755)
 	// if err != nil {
@@ -32,5 +32,6 @@ func Last(claims []models.Apartment) error {
 	if err != nil {
 		return fmt.Errorf("Ошибка unmarshal файла c сохранеными последними заявками: %v", err)
 	}
+	return nil
 
 }

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kiberlom/moskovskay/internal/models"
+	"github.com/kiberlom/moskovskay/internal/ais/models"
 
 	"github.com/PuerkitoBio/goquery"
 )
