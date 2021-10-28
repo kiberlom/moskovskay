@@ -3,6 +3,8 @@ package parse
 import (
 	"bytes"
 	"log"
+	"sort"
+	"strconv"
 	"strings"
 
 	"github.com/kiberlom/moskovskay/internal/models"
@@ -35,9 +37,21 @@ func Parsing(body []byte) (*[]models.Apartment, error) {
 
 					switch i {
 					case 0:
-						apartmentOne.Number = res
+						r, err := strconv.Atoi(res)
+						if err != nil {
+							apartmentOne.Number = -1
+							break
+						}
+						apartmentOne.Number = r
+
 					case 1:
-						apartmentOne.NumberRoom = res
+						r, err := strconv.Atoi(res)
+						if err != nil {
+							apartmentOne.NumberRoom = -1
+							break
+						}
+						apartmentOne.NumberRoom = r
+
 					case 2:
 						apartmentOne.TimeCreate = res
 					case 3:
@@ -89,10 +103,20 @@ func Parsing(body []byte) (*[]models.Apartment, error) {
 
 	})
 
+	// если не найдено ничего
+	if len(apartments) == 0 {
+		return nil, nil
+	}
+
 	// объединяем данные
 	for i := range apartments {
 		apartments[i].DetailCase = details[i]
 	}
+
+	// отсортируем по номеру заявки
+	sort.SliceStable(apartments, func(i, j int) bool {
+		return apartments[i].Number < apartments[j].Number
+	})
 
 	return &apartments, nil
 

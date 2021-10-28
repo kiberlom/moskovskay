@@ -10,7 +10,8 @@ import (
 )
 
 var (
-	URL    = "https://ulyanovsk-people.aisgorod.ru/Houses/Requests/248030?month=&year="
+	URL = "https://ulyanovsk-people.aisgorod.ru/Houses/Requests/248030?month=&year="
+	// URL    = "https://ulyanovsk-people.aisgorod.ru/Houses/Requests/2480304545545454?month=&year="
 	method = "GET"
 )
 

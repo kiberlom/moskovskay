@@ -1,8 +1,9 @@
 package models
 
+// одна заявка
 type Apartment struct {
-	Number       string     // Номер
-	NumberRoom   string     // Квартира
+	Number       int        // Номер
+	NumberRoom   int        // Квартира
 	TimeCreate   string     // Время создания
 	Priority     string     // Приоритет
 	Status       string     // Статус
@@ -11,6 +12,7 @@ type Apartment struct {
 	DetailCase   DetailCase // Детали заявки
 }
 
+// детали одной заявки
 type DetailCase struct {
 	ApplicantAssessment      string // Оценка заявителя
 	Cause                    string // Причина
@@ -20,5 +22,10 @@ type DetailCase struct {
 	MES                      string // На контроле в МЧС
 	ImplementingOrganization string // Организация-исполнитель
 	Work                     string // Работы
+}
 
+// сохранение последней заявки
+type SaveLastClaim struct {
+	HomeID  int // id дома
+	ClaimID int // id последней заявки
 }
