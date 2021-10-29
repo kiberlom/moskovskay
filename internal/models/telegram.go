@@ -1,7 +1,7 @@
-package telegram
+package models
 
 // принимаем сообщение
-type GetMessage struct {
+type GetMessageTelegram struct {
 	Ok     bool `json:"ok"`
 	Result []struct {
 		UpdateID int `json:"update_id"`
@@ -27,13 +27,13 @@ type GetMessage struct {
 }
 
 // отправка сообщения
-type SendMessageRequest struct {
+type SendMessageTelegramRequest struct {
 	ChatID int    `json:"chat_id"`
 	Text   string `json:"text"`
 }
 
 // ответ на отправленное сообщение
-type SendMessageResponse struct {
+type SendMessageTelegramResponse struct {
 	Ok     bool `json:"ok"`
 	Result struct {
 		MessageID int `json:"message_id"`
@@ -51,4 +51,10 @@ type SendMessageResponse struct {
 		Date int    `json:"date"`
 		Text string `json:"text"`
 	} `json:"result"`
+}
+
+// сообщение телеграм боту для отправки в канал
+type SendMessageInChannelTelegramBot struct {
+	Test            string
+	ChannelTelegram int
 }

@@ -1,2 +1,4 @@
 tel_bot.txt
 .env
+data/sql.db
+.vscode/settings.json

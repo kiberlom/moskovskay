@@ -2,18 +2,14 @@ package telegram
 
 import "github.com/kiberlom/moskovskay/internal/config"
 
-type BotWorker interface {
-	Send(string) error
-}
-
-func NewBot(c *config.Config) BotWorker {
-
-	return &botWork{
-		config: c,
-	}
+func NewBot(c *config.Config) {
 
 	// in := make(chan string, 2)
 	// go bot(in)
+
+}
+
+func (b *botWork) botSend() {
 
 }
 

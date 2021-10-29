@@ -8,7 +8,8 @@ import (
 )
 
 type Config struct {
-	TGToken string
+	TGToken     string
+	TGChatAdmin int
 }
 
 func GetConfig() (*Config, error) {
@@ -25,8 +26,8 @@ func GetConfig() (*Config, error) {
 
 	c := &Config{}
 
-	token := v.GetString("TELEGRAM_TOKEN")
-	c.TGToken = token
+	c.TGToken = v.GetString("TELEGRAM_TOKEN")
+	c.TGChatAdmin = v.GetInt("CHAT_ID_ADMIN")
 
 	return c, nil
 }

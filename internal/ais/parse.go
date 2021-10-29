@@ -1,4 +1,4 @@
-package parse
+package ais
 
 import (
 	"bytes"
@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kiberlom/moskovskay/internal/ais/models"
+	"github.com/kiberlom/moskovskay/internal/models"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-func Parsing(body []byte) (*[]models.Apartment, error) {
+func Parsing(body []byte) ([]models.Apartment, error) {
 
 	nr := bytes.NewReader(body)
 
@@ -118,6 +118,6 @@ func Parsing(body []byte) (*[]models.Apartment, error) {
 		return apartments[i].Number < apartments[j].Number
 	})
 
-	return &apartments, nil
+	return apartments, nil
 
 }

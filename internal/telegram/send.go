@@ -9,30 +9,31 @@ import (
 	"time"
 
 	"github.com/kiberlom/moskovskay/internal/config"
+	"github.com/kiberlom/moskovskay/internal/models"
 )
 
 type botWork struct {
 	config *config.Config
 }
 
-func requestToJson(text string) ([]byte, error) {
-	s := SendMessageRequest{
-		ChatID: -1001748587069,
+func (b *botWork) requestToJson(text string) ([]byte, error) {
+	s := models.SendMessageTelegramRequest{
+		ChatID: b.config.TGChatAdmin,
 		Text:   text,
 	}
 
-	b, err := json.Marshal(s)
+	result, err := json.Marshal(s)
 	if err != nil {
 		return nil, fmt.Errorf("Ошибка подготовки сообщения для отправки (Marshal): %v", err)
 	}
 
-	return b, nil
+	return result, nil
 
 }
 
 func (b *botWork) Send(text string) error {
 
-	messageByte, err := requestToJson(text)
+	messageByte, err := b.requestToJson(text)
 	if err != nil {
 		return err
 	}

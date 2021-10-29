@@ -1,4 +1,4 @@
-package get
+package ais
 
 import (
 	"fmt"

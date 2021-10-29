@@ -5,38 +5,33 @@ import (
 
 	// "github.com/kiberlom/moskovskay/internal/ais/get"
 	// "github.com/kiberlom/moskovskay/internal/ais/parse"
+
 	"github.com/kiberlom/moskovskay/internal/config"
-	"github.com/kiberlom/moskovskay/internal/telegram"
+	"github.com/kiberlom/moskovskay/internal/datebase"
 )
 
 func main() {
 
-	conf, err := config.GetConfig()
+	//wg := &sync.WaitGroup{}
+
+	_, err := config.GetConfig()
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	bot := telegram.NewBot(conf)
-	bot.Send("Привет")
-	bot.Send("Пока")
+	if err = datebase.NewConnect(); err != nil {
+		log.Fatal(err)
+	}
 
-	// year, month, _ := time.Now().Date()
+	// 	bot := telegram.NewBot(conf)
 
-	// content, err := get.GetContent(int(month), year)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// parse, err := parse.Parsing(content)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-
-	// if parse == nil {
-	// 	log.Fatal("Ничего не найдено")
-	// }
-
-	// fmt.Printf("%+v", parse)
+	// 	wg.Add(1)
+	// 	ais.NewAISBot(&ais.ConfigAIS{
+	// 		Conf:  conf,
+	// 		TGBot: bot,
+	// 		WG:    wg,
+	// 	})
+	// wg.Wait()
 
 	// b, err := json.Marshal(parse)
 	// if err != nil {

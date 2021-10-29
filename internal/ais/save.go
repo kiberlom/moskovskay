@@ -1,4 +1,4 @@
-package last
+package ais
 
 import (
 	"encoding/json"
@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/kiberlom/moskovskay/internal/ais/models"
+	"github.com/kiberlom/moskovskay/internal/models"
 )
 
 func Last(claims []models.Apartment) error {
